@@ -1,0 +1,15 @@
+/Users/yuliayuste/Projects/lab3/lab3/lab3/bin/Debug/netstandard2.0/lab3.deps.json
+/Users/yuliayuste/Projects/lab3/lab3/lab3/bin/Debug/netstandard2.0/lab3.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3/bin/Debug/netstandard2.0/ref/lab3.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3/bin/Debug/netstandard2.0/lab3.pdb
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/lab3.csproj.AssemblyReference.cache
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/lab3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/lab3.AssemblyInfoInputs.cache
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/lab3.AssemblyInfo.cs
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/lab3.csproj.CoreCompileInputs.cache
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/lab3.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/refint/lab3.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3/obj/Debug/netstandard2.0/lab3.pdb
