@@ -1,25 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:lab3"
              x:Class="lab3.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+    <ContentPage.Resources>
+    <ResourceDictionary>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="FontAttributes" Value="Bold"></Setter>
+            <Setter Property="CharacterSpacing" Value="1"></Setter>
+            <Setter Property="BackgroundColor" Value="#5e548e"></Setter>
+            <Setter Property="TextColor" Value="#e0b1cb"></Setter>
+        </Style>
+         <Style x:Key="EntryStyle" TargetType="Button">
+            <Setter Property="CharacterSpacing" Value="1"></Setter>
+            <Setter Property="TextColor" Value="#5e548e"></Setter>
+        </Style>
+    </ResourceDictionary>
+</ContentPage.Resources>
+
+       
+    <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Label Text="Flights schedule" FontSize="Title" TextColor="#5e548e" FontAttributes="Bold"  TextTransform="Uppercase" HorizontalOptions="Center"/>
+        <Entry x:Name="DestinationEntry" Style="{StaticResource EntryStyle}" Placeholder="Destination" PlaceholderColor="#9f86c0" />
+        <Button Text="Get flights" Style="{StaticResource ButtonStyle}" Clicked="Btn_Clicked"/> 
+        <Label x:Name="LabelTest" FontSize="Title" TextColor="#5e548e" FontAttributes="Bold"  TextTransform="Uppercase" HorizontalOptions="Center"/>
+         <ListView x:Name="FlightListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding FlightNumber}" Detail="{Binding PlaneType}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>
 
+ 

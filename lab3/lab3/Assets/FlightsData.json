@@ -1,0 +1,143 @@
+﻿[
+  {
+    "Id": 1,
+    "FlightNumber": "DL123",
+    "PlaneType": "Boeing 737",
+    "Destination": "New York (JFK)",
+    "DepartureTime": "2023-09-07T09:15:00"
+  },
+  {
+    "Id": 2,
+    "FlightNumber": "AA456",
+    "PlaneType": "Airbus A320",
+    "Destination": "Los Angeles (LAX)",
+    "DepartureTime": "2023-09-07T17:45:00"
+  },
+  {
+    "Id": 3,
+    "FlightNumber": "UA789",
+    "PlaneType": "Boeing 777",
+    "Destination": "Chicago (ORD)",
+    "DepartureTime": "2023-09-07T11:30:00"
+  },
+  {
+    "Id": 4,
+    "FlightNumber": "WN234",
+    "PlaneType": "Boeing 737",
+    "Destination": "Denver (DEN)",
+    "DepartureTime": "2023-09-08T06:20:00"
+  },
+  {
+    "Id": 5,
+    "FlightNumber": "AS567",
+    "PlaneType": "Airbus A320",
+    "Destination": "San Francisco (SFO)",
+    "DepartureTime": "2023-09-08T14:50:00"
+  },
+  {
+    "Id": 6,
+    "FlightNumber": "B6890",
+    "PlaneType": "Airbus A321",
+    "Destination": "Orlando (MCO)",
+    "DepartureTime": "2023-09-09T08:05:00"
+  },
+  {
+    "Id": 7,
+    "FlightNumber": "AA123",
+    "PlaneType": "Boeing 787",
+    "Destination": "Miami (MIA)",
+    "DepartureTime": "2023-09-09T18:30:00"
+  },
+  {
+    "Id": 8,
+    "FlightNumber": "DL456",
+    "PlaneType": "Boeing 737",
+    "Destination": "Dallas/Fort Worth (DFW)",
+    "DepartureTime": "2023-09-10T12:15:00"
+  },
+  {
+    "Id": 9,
+    "FlightNumber": "UA789",
+    "PlaneType": "Airbus A320",
+    "Destination": "Seattle (SEA)",
+    "DepartureTime": "2023-09-10T20:45:00"
+  },
+  {
+    "Id": 10,
+    "FlightNumber": "WN234",
+    "PlaneType": "Boeing 737",
+    "Destination": "Las Vegas (LAS)",
+    "DepartureTime": "2023-09-11T07:10:00"
+  },
+  {
+    "Id": 11,
+    "FlightNumber": "AS567",
+    "PlaneType": "Airbus A321",
+    "Destination": "Phoenix (PHX)",
+    "DepartureTime": "2023-09-11T15:35:00"
+  },
+  {
+    "Id": 12,
+    "FlightNumber": "B6890",
+    "PlaneType": "Airbus A320",
+    "Destination": "Boston (BOS)",
+    "DepartureTime": "2023-09-12T10:20:00"
+  },
+  {
+    "Id": 13,
+    "FlightNumber": "DL123",
+    "PlaneType": "Boeing 787",
+    "Destination": "Atlanta (ATL)",
+    "DepartureTime": "2023-09-12T19:50:00"
+  },
+  {
+    "Id": 14,
+    "FlightNumber": "AA456",
+    "PlaneType": "Boeing 737",
+    "Destination": "Houston (IAH)",
+    "DepartureTime": "2023-09-13T13:25:00"
+  },
+  {
+    "Id": 15,
+    "FlightNumber": "UA789",
+    "PlaneType": "Airbus A321",
+    "Destination": "San Diego (SAN)",
+    "DepartureTime": "2023-09-13T22:55:00"
+  },
+  {
+    "Id": 16,
+    "FlightNumber": "WN234",
+    "PlaneType": "Boeing 737",
+    "Destination": "New Orleans (MSY)",
+    "DepartureTime": "2023-09-14T16:40:00"
+  },
+  {
+    "Id": 17,
+    "FlightNumber": "AS567",
+    "PlaneType": "Airbus A320",
+    "Destination": "Chicago (MDW)",
+    "DepartureTime": "2023-09-14T02:10:00"
+  },
+  {
+    "Id": 18,
+    "FlightNumber": "B6890",
+    "PlaneType": "Boeing 787",
+    "Destination": "Orlando (SFB)",
+    "DepartureTime": "2023-09-15T06:45:00"
+  },
+  {
+    "Id": 19,
+    "FlightNumber": "DL123",
+    "PlaneType": "Airbus A320",
+    "Destination": "Las Vegas (LAS)",
+    "DepartureTime": "2023-09-15T14:15:00"
+  },
+  {
+    "Id": 20,
+    "FlightNumber": "AA456",
+    "PlaneType": "Boeing 737",
+    "Destination": "Denver (DEN)",
+    "DepartureTime": "2023-09-16T09:30:00"
+  }
+]
+
