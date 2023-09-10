@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "+reusS1BFf4po6Sqpa8U7QIDFpvT35jCYOcRtSB3LDQxR3zOP5VgeQCFGcfqdjEaE5Bp4MHU09QPNiMbbM4Alg==",
+  "dgSpecHash": "u1hUCaOyrubhtKrZkKoduEYCBjNJTuQptuWBnuXUDg58xvF7u4UA0CFSa4wTvRGSPk3jRPtZM8T2ngij/XcVeQ==",
   "success": true,
   "projectFilePath": "/Users/yuliayuste/Projects/lab3/lab3/lab3/lab3.csproj",
   "expectedPackageFiles": [
     "/Users/yuliayuste/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "/Users/yuliayuste/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/yuliayuste/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/yuliayuste/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "/Users/yuliayuste/.nuget/packages/sqlitepclraw.bundle_green/2.0.4/sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "/Users/yuliayuste/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "/Users/yuliayuste/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "/Users/yuliayuste/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.4/sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/yuliayuste/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/yuliayuste/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
     "/Users/yuliayuste/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
