@@ -636,3 +636,10 @@
 /Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/android/assets/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/android/assets/System.Buffers.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/android/assets/System.Memory.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/android/assets/System.Runtime.CompilerServices.Unsafe.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/android/assets/System.Text.Encodings.Web.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/android/assets/System.Text.Json.dll
+/Users/yuliayuste/Projects/lab3/lab3/lab3.Android/obj/Debug/android/assets/System.Threading.Tasks.Extensions.dll

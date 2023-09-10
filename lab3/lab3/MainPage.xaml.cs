@@ -24,8 +24,6 @@ namespace lab3
             BindingContext = ViewModel;
         }
 
-        //private string test = "Test";
-
         private void Btn_Clicked(object sender, EventArgs e)
         {
 
@@ -35,11 +33,8 @@ namespace lab3
             {
                 var flights = ViewModel.GetFlightsForDestination(destination);
                 FlightListView.ItemsSource = flights;
-                //DisplayAlert("1", flights.ToString(), "Ok");
             }
-
             
-            //LabelTest.Text = test;
         }
 
         protected override void OnAppearing()

@@ -25,8 +25,6 @@
         <Label Text="Flights schedule" FontSize="Title" TextColor="#5e548e" FontAttributes="Bold"  TextTransform="Uppercase" HorizontalOptions="Center"/>
         <Entry x:Name="DestinationEntry" Style="{StaticResource EntryStyle}" Placeholder="Destination" PlaceholderColor="#9f86c0" />
         <Button Text="Get flights" Style="{StaticResource ButtonStyle}" Clicked="Btn_Clicked"/>
-        <!--<Label Text="{Binding FlightsData}" />-->
-        <!--<Label x:Name="LabelTest" FontSize="Title" TextColor="#5e548e" FontAttributes="Bold"  TextTransform="Uppercase" HorizontalOptions="Center"/>-->
          <ListView x:Name="FlightListView" ItemsSource="{Binding Flights}">
             <ListView.ItemTemplate>
                 <DataTemplate>

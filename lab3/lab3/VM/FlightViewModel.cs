@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.IO;
+using System.Text.Json;
 
 namespace lab3.VM
 {
@@ -10,11 +12,10 @@ namespace lab3.VM
 
         public ObservableCollection<FlightSchedule> Flights { get; set; } = new ObservableCollection<FlightSchedule>();
 
-        
         public void LoadData()
         {
 
-            Flights.Add(new FlightSchedule { FlightNumber = "ABC123", PlaneType = "Boeing 737", Destination = "New York", DepartureTime = DateTime.Parse("2023-09-07 10:00:00") });
+            Flights.Add(new FlightSchedule { FlightNumber = "ABC123", PlaneType = "Boeing 737", Destination = "New York", DepartureTime = DateTime.Parse("2023-09-07 18:02:00") });
             Flights.Add(new FlightSchedule { FlightNumber = "ABC123", PlaneType = "Boeing 737", Destination = "New York", DepartureTime = DateTime.Parse("2023-09-07 10:00:00") });
             Flights.Add(new FlightSchedule { FlightNumber = "XYZ456", PlaneType = "Airbus A320", Destination = "Paris", DepartureTime = DateTime.Parse("2023-09-07 11:30:00") });
             Flights.Add(new FlightSchedule { FlightNumber = "XYZ456", PlaneType = "Airbus A320", Destination = "Paris", DepartureTime = DateTime.Parse("2023-09-07 07:1:00") });

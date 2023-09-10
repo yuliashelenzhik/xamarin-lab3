@@ -1,29 +1,39 @@
 ﻿<Properties StartupConfiguration="{648628FD-4151-49F3-908E-653BBA0B4EC4}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.lab3.iOS FirstBuild="True" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.1.2" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/yuliayuste/Projects/lab3/lab3/lab3/VM/FlightViewModel.cs" relfile="lab3/lab3/VM/FlightViewModel.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_2_API_31" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="lab3/lab3/MainPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.lab3.Android PreferredExecutionTarget="Android.Pixel_2_API_31" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="lab3/lab3/VM/FlightViewModel.cs">
     <Files>
-      <File FileName="lab3/lab3/MainPage.xaml.cs" Line="19" Column="1" />
-      <File FileName="lab3/lab3/MainPage.xaml" Line="14" Column="62" NotebookId="1" />
+      <File FileName="lab3/lab3/MainPage.xaml.cs" Line="38" Column="44" />
+      <File FileName="lab3/lab3/VM/FlightViewModel.cs" Line="35" Column="18" />
+      <File FileName="lab3/lab3/Models/FlightSchedule.cs" Line="8" Column="36" />
+      <File FileName="lab3/lab3/MainPage.xaml" Line="34" Column="81" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="lab3" expanded="True">
-            <Node name="lab3">
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            <Node name="lab3" selected="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="VM" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="lab3.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.1.2" />
-  <MonoDevelop.Ide.ItemProperties.lab3.Android PreferredExecutionTarget="Android.Pixel_2_API_31" />
-  <MonoDevelop.Ide.ItemProperties.lab3.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_2_API_31" />
 </Properties>

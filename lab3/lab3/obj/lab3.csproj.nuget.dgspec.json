@@ -44,6 +44,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"
@@ -63,7 +67,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/yuliayuste/Library/Caches/VisualStudio/17.0/MSBuild/2095_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/yuliayuste/Library/Caches/VisualStudio/17.0/MSBuild/4967_3/RuntimeIdentifierGraph.json"
         }
       }
     }
