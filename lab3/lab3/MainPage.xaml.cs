@@ -15,6 +15,7 @@ namespace lab3
     {
 
         public FlightViewModel ViewModel { get; set; }
+        public static object Flights { get; private set; }
 
         public MainPage()
         {
@@ -34,7 +35,10 @@ namespace lab3
             {
                 var flights = ViewModel.GetFlightsForDestination(destination);
                 FlightListView.ItemsSource = flights;
+                //DisplayAlert("1", flights.ToString(), "Ok");
             }
+
+            
             //LabelTest.Text = test;
         }
 

@@ -24,12 +24,32 @@
     <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <Label Text="Flights schedule" FontSize="Title" TextColor="#5e548e" FontAttributes="Bold"  TextTransform="Uppercase" HorizontalOptions="Center"/>
         <Entry x:Name="DestinationEntry" Style="{StaticResource EntryStyle}" Placeholder="Destination" PlaceholderColor="#9f86c0" />
-        <Button Text="Get flights" Style="{StaticResource ButtonStyle}" Clicked="Btn_Clicked"/> 
-        <Label x:Name="LabelTest" FontSize="Title" TextColor="#5e548e" FontAttributes="Bold"  TextTransform="Uppercase" HorizontalOptions="Center"/>
-         <ListView x:Name="FlightListView">
+        <Button Text="Get flights" Style="{StaticResource ButtonStyle}" Clicked="Btn_Clicked"/>
+        <!--<Label Text="{Binding FlightsData}" />-->
+        <!--<Label x:Name="LabelTest" FontSize="Title" TextColor="#5e548e" FontAttributes="Bold"  TextTransform="Uppercase" HorizontalOptions="Center"/>-->
+         <ListView x:Name="FlightListView" ItemsSource="{Binding Flights}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding FlightNumber}" Detail="{Binding PlaneType}" />
+                     <ViewCell >
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="Center" >
+                     <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="{Binding Destination}" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" />
+                    <Label Text="{Binding FlightNumber}" Grid.Row="0" Grid.Column="1" />
+                    <Label Text="{Binding PlaneType}" Grid.Row="0" Grid.Column="2" />
+                    <Label Text="{Binding DepartureTime, StringFormat='{0:HH:mm}'}" Grid.Row="0" Grid.Column="3" />
+                </Grid>
+            </ViewCell>
+                    <!--<TextCell Text="{Binding FlightNumber}" Detail="{Binding PlaneType}" />-->
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
